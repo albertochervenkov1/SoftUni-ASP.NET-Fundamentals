@@ -1,0 +1,13 @@
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.csproj.AssemblyReference.cache
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.AssemblyInfoInputs.cache
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.AssemblyInfo.cs
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.csproj.CoreCompileInputs.cache
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\Data\products.json
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.deps.json
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.dll
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.pdb
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.dll
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\refint\WebShopDemo.Core.dll
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.pdb
+D:\C#-WEB-COURSE\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\ref\WebShopDemo.Core.dll

@@ -1,0 +1,15 @@
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\bin\Debug\net6.0\DescendingOrder.exe
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\bin\Debug\net6.0\DescendingOrder.deps.json
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\bin\Debug\net6.0\DescendingOrder.runtimeconfig.json
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\bin\Debug\net6.0\DescendingOrder.dll
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\bin\Debug\net6.0\DescendingOrder.pdb
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.csproj.AssemblyReference.cache
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.AssemblyInfoInputs.cache
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.AssemblyInfo.cs
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.csproj.CoreCompileInputs.cache
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.dll
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\refint\DescendingOrder.dll
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.pdb
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\DescendingOrder.genruntimeconfig.cache
+D:\C#-WEB-COURSE\10.16.2022\DescendingOrder\obj\Debug\net6.0\ref\DescendingOrder.dll

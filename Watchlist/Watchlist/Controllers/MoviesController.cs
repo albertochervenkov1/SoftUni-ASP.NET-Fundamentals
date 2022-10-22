@@ -17,14 +17,6 @@ namespace Watchlist.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> All()
-        {
-            var model = await movieService.GetAllAsync();
-
-            return View(model);
-        }
-
-        [HttpGet]
         public async Task<IActionResult> Add()
         {
             var model = new AddMovieViewModel()
@@ -57,12 +49,29 @@ namespace Watchlist.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> All()
+        {
+            var model=await movieService.GetAllAsync();
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Watched()
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+            var model = await movieService.GetWatchedAsync(userId);
+
+            return View("Watched", model);
+        }
+
         public async Task<IActionResult> AddToCollection(int movieId)
         {
             try
             {
                 var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
-                await movieService.AddMovieToCollectionAsync(movieId, userId);
+                await movieService.AddMovieToCollection(userId, movieId);
             }
             catch (Exception)
             {
@@ -72,20 +81,20 @@ namespace Watchlist.Controllers
             return RedirectToAction(nameof(All));
         }
 
-        public async Task<IActionResult> Watched()
-        {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
-            var model = await movieService.GetWatchedAsync(userId);
-
-            return View("Watched", model);
-        }
-
         public async Task<IActionResult> RemoveFromCollection(int movieId)
         {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
-            await movieService.RemoveMovieFromCollectionAsync(movieId, userId);
+            try
+            {
+                var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+                await movieService.RemoveMovieFromCollection(userId,movieId);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
 
             return RedirectToAction(nameof(Watched));
         }
+
     }
 }

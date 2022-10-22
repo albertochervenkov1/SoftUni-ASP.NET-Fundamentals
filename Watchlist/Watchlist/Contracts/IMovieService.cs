@@ -1,20 +1,20 @@
-﻿using Watchlist.Data.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Watchlist.Data.Models;
 using Watchlist.Models;
 
 namespace Watchlist.Contracts
 {
     public interface IMovieService
     {
-        Task<IEnumerable<MovieViewModel>> GetAllAsync();
-
+        Task AddMovieAsync(AddMovieViewModel model);
         Task<IEnumerable<Genre>> GetGenresAsync();
 
-        Task AddMovieAsync(AddMovieViewModel model);
+        Task<IEnumerable<AllMovieModel>> GetAllAsync();
+        Task<IEnumerable<AllMovieModel>> GetWatchedAsync(string userId);
 
-        Task AddMovieToCollectionAsync(int movieId, string userId);
+        Task AddMovieToCollection(string userId, int movieId);
 
-        Task<IEnumerable<MovieViewModel>> GetWatchedAsync(string userId);
+        Task RemoveMovieFromCollection(string userId, int movieId);
 
-        Task RemoveMovieFromCollectionAsync(int movieId, string userId);
     }
 }
